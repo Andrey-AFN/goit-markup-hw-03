@@ -1,0 +1,144 @@
+:root {
+    --primary-text-color:#2E2F42;
+    --title-text-color:#434455;
+    --accent-color:#4D5AE5;
+    --white-color:#ffffff;
+    --button-background:#F4F4FD;
+}
+
+/* основной цвет текста #2E2F42 */
+/* вторичный цвет текста #434455 */
+body {
+    color:var(--primary-text-color);
+    background-color:var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.link, .list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.button {
+    font-family: inherit;
+}
+
+.button {
+    color: var(--accent-color);
+    background: var(--button-background);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button:hover, 
+.button:focus {
+    color: var(--white-color);
+    background: var(--accent-color);
+    cursor: pointer;
+}
+
+.title-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.title-button:hover,
+.title-button:focus {
+    cursor: pointer;
+}
+
+.logo {
+    color: var(--primary-text-color);
+    font-family: Raleway;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.nav.link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav.link:hover, 
+.nav.link:focus {
+    color: var(--accent-color);
+}
+
+.adressat.link {
+    color: var(--title-text-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.adressat.link:hover, 
+.adressat.link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--primary-text-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+
+.portfplio-title link {
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-text {
+    color: var(--white-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+
+.section-subtitle {
+    color:var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;   
+}
+
+.section-title {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--primary-text-color);
+}
+
+.logo-footer, link {
+    color: var(--white-color) 
+}
