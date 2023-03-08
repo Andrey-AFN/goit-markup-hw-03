@@ -8,25 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/ctyles.css">
   </head>
   <body>
     <header>
-        <nav>
+      <div class="container main-nav">
+         <nav>
             <a href="./index.html" class="logo link"><span>Web</span>Studio</a>
 
             <ul class="navigation link">
-                <li><a href="./index.html" class="nav link">Studio</a> </li>               
-                <li><a href="./portfolio.html" class="nav link">Portfolio</a></li>
-                <li><a href="" class="nav link">Contacts</a></li>
+                <li class="item"><a href="./index.html" class="link">Studio</a> </li>               
+                <li class="item"><a href="./portfolio.html" class="link">Portfolio</a></li>
+                <li class="item"><a href="" class="link">Contacts</a></li>
             </ul>
         </nav>
-        <address>
+          <address>
             <ul class="adressat link">
-                <li><a href="" class="adressat link">info@devstudio.com</a></li>
-                <li><a href="" class="adressat link">+11 (000) 111-11-11</a></li>
+                <li class="item"><a href="" class="link">info@devstudio.com</a></li>
+                <li class="item"><a href="" class="link">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+        </div>
     </header>
 
     <main>
@@ -35,7 +38,8 @@
     <button type="button" class="title-button">Order Service</button>
   </section>   
 
-  <section>
+  <div class="container">
+      <section>
     <h2 class="section-title">future</h2>
 
     <ul class="list">
@@ -68,10 +72,12 @@
         </p>
       </li>      
     </ul>
+  </div>
   </section>
 
-  <section>
-    <h2 class="section-title">What are we doing</h2>
+ <div class="container">
+   <section>
+    <h2 class="section-title question">What are we doing</h2>
 
     <ul class="list">
         <li>
@@ -86,37 +92,40 @@
             <img src="./images/toophones.jpg" alt="setting" width="360">
         </li>
     </ul>
+ </div>
   </section>
 
-  <section>
+  <div class="container">
+    <section>
     <h2 class="section-title">Our Team</h2>
 
     <ul class="list">
         <li>
             <img src="./images/men.jpg" alt="personal" width="264">
-            <h3 class="section-subtitle">Mark Guerrero</h3>
+            <h3 class="section-subtitle team">Mark Guerrero</h3>
             <p class="section-text">Product Designer</p>
         </li>
 
         <li>
             <img src="./images/mens.jpg" alt="personal" width="264">
-            <h3 class="section-subtitle">Tom Ford</h3>
+            <h3 class="section-subtitle team">Tom Ford</h3>
             <p class="section-text">Frontend Developer</p>
         </li>
 
         <li>
             <img src="./images/woomen.jpg" alt="personal" width="264">
-            <h3 class="section-subtitle">Camila Garcia</h3>
+            <h3 class="section-subtitle team">Camila Garcia</h3>
             <p class="section-text">Marketing</p>
         </li>
 
         <li>
             <img src="./images/menss.jpg" alt="personal" width="264">
-            <h3 class="section-subtitle">Daniel Wilson</h3>
+            <h3 class="section-subtitle team">Daniel Wilson</h3>
             <p class="section-text">UI Designer</p>
         </li>
     </ul>
   </section>
+  </div>
   </main>
 
     <footer class="footer">
