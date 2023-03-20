@@ -210,7 +210,7 @@ address {
     margin-bottom: 48px;
     width: 500px;
     margin: 0 auto;
-
+    margin-bottom: 48px;
 }
 
 
@@ -278,6 +278,8 @@ address {
     letter-spacing: 0.02em;    
 
     width: 264px;
+    margin-left: 156px;
+    margin-top: 16px;
 }
 
 .section-subtitle {
@@ -289,6 +291,7 @@ address {
     margin-bottom: 8px;
     margin-top: 0;
     text-align: center;
+
 }
 
 .section-title {
@@ -297,13 +300,17 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     margin-top: 0;
+    margin-bottom: 72px;
+
     /*margin-bottom: 60px;*/
     text-align: center;
-    visibility: hidden;
+}
+
+.subtitle-none {
+    display: none;
 }
 
 .section-title-question {
-    margin-top: 120px;
     margin-bottom: 72px;
     text-align: center;
     height: 40px;
@@ -321,14 +328,22 @@ address {
 
 .footer {
     background-color: var(--primary-text-color);
+    padding: 100px 0;
 }
 
 .logo-footer, link {
     color: var(--white-color); 
+    font-family: Raleway;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    margin-left: 156px;
 }
 
 .container {
-    padding: 0.15px;
+    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
@@ -378,6 +393,7 @@ address {
 .team-container {
     background-color: var(--button-background);
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .flex-container {
