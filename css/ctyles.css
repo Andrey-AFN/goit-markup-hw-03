@@ -278,7 +278,6 @@ address {
     letter-spacing: 0.02em;    
 
     width: 264px;
-    margin-left: 156px;
     margin-top: 16px;
 }
 
@@ -339,7 +338,6 @@ address {
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
-    margin-left: 156px;
 }
 
 .container {
@@ -435,3 +433,7 @@ address {
     padding-top: 138px;
     padding-right: 1020px;
     padding-bottom: 100px;*/
+
+.footer-container {
+    margin-left: 156px;
+}
